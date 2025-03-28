@@ -4,12 +4,17 @@
     box-sizing: border-box;
 }
 
+.conteiner {
+    display: flex;
+}
+
 .esq-pnl {
     background-color: red;
     height: 100vh;
     width: 25vw;
 }
-.topo button{
+
+.topo button {
     margin-top: 15px;
 }
 
@@ -37,8 +42,44 @@
     height: 30%;
 
 }
-.bxo p{
+
+.bxo p {
     display: flex;
     justify-content: center;
     margin-top: 15px;
+}
+
+/* lado direito */
+main {
+    width: 75vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+
+
+}
+
+img {
+    display: flex;
+    align-items: center;
+    width: 25vw;
+    height: 5vh;
+}
+
+.txt1 {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: end;
+}
+
+.txt2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.txt3 {
+    display: flex;
+    flex-direction: column;
 }

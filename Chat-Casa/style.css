@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.esq-pnl {
+    background-color: red;
+    height: 100vh;
+    width: 25vw;
+}
+.topo button{
+    margin-top: 15px;
+}
+
+
+.topo {
+
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+
+}
+
+.topo p {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+
+
+.bxo {
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    height: 30%;
+
+}
+.bxo p{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
